@@ -33,3 +33,113 @@ header {
     letter-spacing: 1px;
 }
 
+/* HOME */
+
+section#home {
+    display: flex;
+    height: 80vh;
+    padding: 0 5%;
+}
+
+.texto-imagem {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#social ul {
+    list-style: none;
+}
+
+.texto h1{
+    font-weight: bold;
+    color: #564FCC;
+    font-size: 3rem;
+}
+
+.texto {
+    margin-bottom: 20px;
+}
+
+.botao {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: 1px solid #564FCC;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* SOBRE */
+
+section#sobre {
+    background-color: #212738 ;
+    padding: 0 5%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 60px 0px;
+}
+
+section#sobre .texto-imagem article {
+    background-color: red;
+}
+
+section#sobre .texto-imagem aside {
+    background-color: blue;
+}
+
+.imagem-texto {
+    display: flex;
+    justify-content: space-between; 
+ 
+}
+
+.imagem-texto article {
+    padding: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.imagem-texto article p {
+    margin-bottom: 50px;
+}
+
+#tecnologias-ferramentas ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* PROJETOS */
+
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.projeto {
+    display: flex;
+    width: 80%;
+    background-color: #564FCC;
+}
+
+
