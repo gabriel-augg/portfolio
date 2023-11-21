@@ -9,19 +9,35 @@
 </head>
 <body>
     <header>
-        <div id="logo">
-            <a href="#home">
-                <img src="assets/images/logo1.png" width="150" alt="logo">
-            </a>
-        </div>
+
         <nav id="navbar">
+            <div id="logo">
+                <a href="#home">
+                    <img src="assets/images/logo1.png" width="150" alt="logo">
+                </a>
+            </div>
+            <div>
+                <ul class="menu-normal">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projeto">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="menu-icon">
+                <button onclick="aparecerMenu()">
+                    <img id="icone" src="assets/icons/menu-icon.svg" width="38" alt="menu">
+                </button>
+            </div>
+        </nav>
+        <div class="responsive-menu">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projeto">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     <section id="home">
             <div class="conteudo-home">
@@ -80,14 +96,14 @@
             </div>
             <div id="tecnologias-ferramentas">
                 <ul>
-                    <li><img src="assets/icons/html-icon.svg" width="58" alt="html"></li>
-                    <li><img src="assets/icons/css-icon.svg" width="58" alt="html"></li>
-                    <li><img src="assets/icons/javascript-icon.svg" width="58" alt="html"></li>
-                    <li><img src="assets/icons/bootstrap-icon.svg" width="58" alt="html"></li>
-                    <li><img src="assets/icons/react-icon.svg" width="58" alt="html"></li>
-                    <li><img src="assets/icons/sass-icon.svg" width="68" alt="html"></li>
-                    <li><img src="assets/icons/figma-icon.svg" width="48" alt="html"></li>
-                    <li><img src="assets/icons/git-icon.svg" width="58" alt="html"></li>
+                    <li><img class="tec" src="assets/icons/html-icon.svg" width="58" alt="html"></li>
+                    <li><img class="tec" src="assets/icons/css-icon.svg" width="58" alt="html"></li>
+                    <li><img class="tec" src="assets/icons/javascript-icon.svg" width="58" alt="html"></li>
+                    <li><img class="tec" src="assets/icons/bootstrap-icon.svg" width="58" alt="html"></li>
+                    <li><img class="tec" src="assets/icons/react-icon.svg" width="58" alt="html"></li>
+                    <li><img class="tec" src="assets/icons/sass-icon.svg" width="68" alt="html"></li>
+                    <li><img class="tec" src="assets/icons/figma-icon.svg" width="48" alt="html"></li>
+                    <li><img class="tec" src="assets/icons/git-icon.svg" width="58" alt="html"></li>
                 </ul>
             </div>
         </div>
@@ -98,7 +114,7 @@
         </div>
         <div class="projetos">
 
-            <div class="projeto">
+            <div class="projeto ">
                 <aside>
                     <img src="assets/images/projeto2.png" alt="projeto" width="100%" height="100%">
                 </aside>
@@ -121,7 +137,7 @@
                 </article>
             </div>
 
-            <div class="projeto">
+            <div class="projeto projeto-invertido">
                 <article>
                     <div class="conteudo-projeto">
                         <div class="conteudo-projeto">
