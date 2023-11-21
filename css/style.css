@@ -48,7 +48,7 @@ section#home {
     align-items: center;
 }
 
-.conteudo {
+.conteudo-home {
     display: flex;
     width: 100%;
     align-items: center;
@@ -56,6 +56,9 @@ section#home {
 
 #social ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .texto h1{
@@ -76,8 +79,9 @@ section#home {
     color: white;
     border-radius: 8px;
     cursor: pointer;
-    background-color: transparent;
+    background: rgba(0, 0, 0, 0.2);
 }
+
 
 /* SOBRE */
 
@@ -134,12 +138,99 @@ section#sobre .texto-imagem aside {
     align-items: center;
     gap: 40px;
     width: 100%;
+    margin-bottom: 35px;
 }
 
 .projeto {
     display: flex;
     width: 80%;
-    background-color: #564FCC;
+    background-color: #4D5260;
+    border-radius: 10px;
 }
 
+.projeto aside {
+    width: 70%;
+}
+
+.projeto aside img {
+    border-radius: 10px;
+}
+
+.conteudo-projeto {
+    width: 80%;
+}
+
+.projeto article {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-projeto {
+    width: 90%;
+    display: flex;
+    align-items: center;    
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-projeto h1 {
+    font-size: 1.7rem;
+}
+
+.conteudo-botoes {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+}
+
+.botao-projetos {
+    width: 100%;
+}
+
+
+
+/* CONTATO */
+
+#contato {
+    background: #212738;
+    padding: 40px;
+}
+
+.contatos {
+    width: 100%;
+}
+
+.contatos ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contatos ul li {
+    padding: 10px;
+}
+
+.contatos a {
+    padding-left: 40px;
+    text-decoration: none;
+    color: #EDE7E3;
+    font-size: 1rem;
+}
+
+#email-contato {
+    background: url(../assets/icons/email-icon.svg) no-repeat left center;
+}
+
+#linkedin-contato {
+    background: url(../assets/icons/linkedin-icon.svg) no-repeat left center;
+}
+
+#github-contato {
+    background: url(../assets/icons/github-icon.svg) no-repeat left center;
+}
 

@@ -23,13 +23,13 @@
         </nav>
     </header>
     <section id="home">
-            <div class="conteudo">
+            <div class="conteudo-home">
                 <div class="texto-imagem">
                     <article>
                         <div class="texto">
                             <h1>Desenvolvedor Front-End</h1>
                             <h2>Seja muito bem vindo(a)!</h2>
-                            <h3>Aqui você vai ver um pouquinho de quem eu sou e alguns dos meus projetos.</h3>
+                            <h3>Aqui você vai ver um pouquinho quem eu sou e alguns dos meus projetos.</h3>
                         </div>
                         <button class="botao">Projetos</button>
                     </article>
@@ -39,9 +39,21 @@
                 </div>
                 <div id="social">
                     <ul>
-                        <li><img src="assets/icons/email-icon.svg" alt="email"></li>
-                        <li><img src="assets/icons/linkedin-icon.svg" alt="linkedin"></li>
-                        <li><img src="assets/icons/github-icon.svg" alt="github"></li>
+                        <li>
+                            <a href="mailto:gabrielgapseu@gmail.com" target="_blank">
+                                <img src="assets/icons/email-icon.svg" alt="email">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/gabriel-augg/" target="_blank">
+                                <img src="assets/icons/linkedin-icon.svg" alt="linkedin">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/gabriel-augg" target="_blank">
+                                <img src="assets/icons/github-icon.svg" width="38px" alt="github">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="projeto">
         <div class="titulo">
             <h1>Projetos</h1>
         </div>
@@ -87,28 +99,71 @@
 
             <div class="projeto">
                 <aside>
-                    <img src="assets/images/projeto2.png" alt="projeto" width="70%" height="100%">
+                    <img src="assets/images/projeto2.png" alt="projeto" width="100%" height="100%">
                 </aside>
                 <article>
-
+                    <div class="conteudo-projeto">
+                        <div class="conteudo-projeto">
+                            <h1>Livro solidário</h1>
+                            <h4>Site de doação de livros</h4>
+                        </div>
+                        <div>
+                            <img src="assets/icons/html-icon.svg" alt="Écone html">
+                            <img src="assets/icons/css-icon.svg" alt="Ícone css">
+                            <img src="assets/icons/sass-icon.svg" width="55px" alt="Ícone sass">
+                        </div>
+                        <div class="conteudo-botoes">
+                            <button onclick="window.open('https://gabriel-augg.github.io/livro-solidario/', '_blank')" class="botao botao-projeto">Acessar</button>
+                            <button onclick="window.open('https://github.com/gabriel-augg/livro-solidario', '_blank')" class="botao botao-projeto">Repositório</button>
+                        </div>
+                    </div>
                 </article>
             </div>
 
             <div class="projeto">
                 <article>
-                    <div>
-                        
+                    <div class="conteudo-projeto">
+                        <div class="conteudo-projeto">
+                            <h1>Lar do amanhã</h1>
+                            <h4>Site de adoção de animais</h4>
+                        </div>
+                        <div>
+                            <img src="assets/icons/html-icon.svg" alt="Écone html">
+                            <img src="assets/icons/css-icon.svg" alt="Ícone css">
+                            <img src="assets/icons/sass-icon.svg" width="55px" alt="Ícone sass">
+                        </div>
+                        <div class="conteudo-botoes">
+                            <button onclick="window.open('https://gabriel-augg.github.io/lar-do-amanha/', '_blank')" class="botao botao-projeto">Acessar</button>
+                            <button onclick="window.open('https://github.com/gabriel-augg/lar-do-amanha', '_blank')" class="botao botao-projeto">Repositório</button>
+                        </div>
                     </div>
                 </article>
                 <aside>
-                    <img src="assets/images/projeto1.png" alt="projeto" width="70%" height="100%">
+                    <img src="assets/images/projeto1.png" alt="projeto" width="100%" height="100%">
                 </aside>
 
             </div>
 
         </div>
     </section>
-
+    <section id="contato">
+        <div class="titulo">
+            <h1>Contato</h1>
+        </div>
+        <div class="contatos">
+            <ul>
+                <li id="email-contato" >
+                    <a href="mailto:gabrielgapseu@gmail.com" target="_blank" >gabrielgapseu@gmail.com</a>
+                </li>
+                <li id="linkedin-contato" >
+                    <a href="https://www.linkedin.com/in/gabriel-augg/" target="_blank" >gabriel-augg</a>
+                </li>
+                <li id="github-contato" >
+                    <a href="https://github.com/gabriel-augg" target="_blank" >gabriel-augg</a>
+                </li>
+            </ul>
+        </div>
+    </section>
     <script src="script/script.js"></script>
 </body>
 </html>
