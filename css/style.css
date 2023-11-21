@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 90px;
+}
+
 body {
     background-color: #1A1F2D;
     color: #EDE7E3;
@@ -16,6 +24,9 @@ body {
 /* HEADER */
 
 header {
+    background-color: #1A1F2D;
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,11 +44,39 @@ header {
     letter-spacing: 1px;
 }
 
+#navbar ul li a {
+    text-decoration: none;
+    color: #EDE7E3;
+    transition: all 0.8s;
+}
+
+#navbar ul li a:hover {
+    text-decoration: none;
+    transition: all 0.8s;
+    color: #564FCC;
+}
+
+.idioma {
+ transition: all 0.5s;
+}
+
+#portugues {
+    display: none;
+}
+
+.idioma:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
 /* HOME */
 
 section#home {
     display: flex;
-    height: 80vh;
+    height: 100vh;
     padding: 0 5%;
 }
 
@@ -79,7 +118,14 @@ section#home {
     color: white;
     border-radius: 8px;
     cursor: pointer;
+    transition: all 0.3s;
     background: rgba(0, 0, 0, 0.2);
+}
+
+#home .botao:hover {
+    color: #564FCC;
+    transition: all 0.3s;
+    transform: scale(1.1);
 }
 
 
@@ -92,8 +138,18 @@ section#sobre {
 
 .titulo {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding: 20px 0 60px 0px;
+}
+
+.titulo::after {
+    content: '';
+    height: 2px;
+    width: 50px;
+    background-color: #564FCC;
+    margin: 0 auto;
 }
 
 section#sobre .texto-imagem article {
@@ -127,6 +183,16 @@ section#sobre .texto-imagem aside {
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+.logo-social {
+    transition: all 0.3s;
+}
+
+.logo-social:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+    transition: all 0.3s;
 }
 
 /* PROJETOS */
@@ -187,8 +253,10 @@ section#sobre .texto-imagem aside {
     gap: 10px;
 }
 
-.botao-projetos {
-    width: 100%;
+.botao-projeto:hover {
+    color: #564FCC;
+    background-color: #212738;
+    transition: all 0.6s;
 }
 
 
@@ -232,5 +300,14 @@ section#sobre .texto-imagem aside {
 
 #github-contato {
     background: url(../assets/icons/github-icon.svg) no-repeat left center;
+}
+
+#email-contato a, #linkedin-contato a, #github-contato a {
+    transition: all 0.4s;
+}
+
+#email-contato a:hover, #linkedin-contato a:hover, #github-contato a:hover {
+    color: #564FCC;
+    transition: all 0.4s;
 }
 
