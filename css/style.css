@@ -215,11 +215,13 @@ section#home {
 /* //////////////////// SOBRE ///////////////////// */
 
 section#sobre {
-    background-color: #212738 ;
+    background-color: #212738;
     padding: 0 5%;
 }
 
 .titulo {
+    font-size: 0.8rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -282,11 +284,15 @@ section#sobre .texto-imagem aside {
     }
 
     .tec {
-        width: 38px;
+        width: 48px;
     }
 
     #tecnologias-ferramentas {
         padding-bottom: 50px;
+    }
+
+    #tecnologias-ferramentas ul {
+        flex-wrap: wrap;
     }
 }
 
