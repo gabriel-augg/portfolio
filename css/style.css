@@ -88,15 +88,16 @@ header {
     .responsive-menu ul {
         display: flex;
         width: 100%;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+       flex-direction: column;
+       align-items: center;
         padding-bottom: 1rem;
+        list-style: none;
+        gap: 30px;
     }
 
+
     .responsive-menu ul li {
-        display: block;
-        padding-top: 1.2rem;
+        text-align: center;
     }
 
     .responsive-menu ul li a {
@@ -105,8 +106,21 @@ header {
         font-size: 1rem;
         font-weight: bold;
         transition: all 0.5s;
-
     }
+
+    .responsive-menu ul li a::after {
+        content: '';
+        height: 1px;
+        width: 400px;
+        background-color: #212738;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+
+
+
 
 
     .responsive-menu ul li a:hover {
@@ -115,7 +129,7 @@ header {
     }
 
     .aparecer {
-        display: block;
+        display: flex;
     }
 }
 
@@ -187,7 +201,7 @@ section#home {
     transition: all 0.3s;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1070px) {
     .texto-imagem aside {
         display: none;
     }
@@ -211,7 +225,7 @@ section#home {
 
 @media screen and (max-width: 768px) {
     section#home {
-        height: 80vh;
+        height: 85vh;
         justify-content: flex-start;
     }
 
@@ -262,14 +276,20 @@ section#sobre {
 
 .imagem-texto {
     display: flex;
+    align-items: center;
     justify-content: space-between; 
  
 }
 
 .imagem-texto article {
-    padding: 50px;
+    width: 60%;
+    padding: 0 70px;
     font-size: 1rem;
     font-weight: bold;
+}
+
+.imagem-texto aside {
+    width: 40%;
 
 }
 
@@ -279,6 +299,7 @@ section#sobre {
 
 #tecnologias-ferramentas {
     padding: 0 0.9rem;
+    padding-bottom: 3rem;
 }
 
 #tecnologias-ferramentas ul {
@@ -306,13 +327,20 @@ section#sobre {
         width: 48px;
     }
 
-    #tecnologias-ferramentas {
-        padding-bottom: 50px;
-    }
-
     #tecnologias-ferramentas ul {
         flex-wrap: wrap;
     }
+
+    .imagem-texto article {
+        padding: 0 30px;
+        width: 95%;
+    }
+
+    .imagem-texto article p {
+        text-align: center;
+    }
+    
+
 }
 
 /* /////////////////// PROJETOS /////////////////// */
@@ -331,16 +359,15 @@ section#sobre {
     display: flex;
     width: 80%;
     background-color: #4D5260;
-    border-radius: 10px;
+    border-radius: 13px;
 }
 
 .projeto aside {
     width: 70%;
-
 }
 
 .projeto aside img {
-    border-radius: 10px;
+    border-radius: 13px;
 }
 
 .conteudo-projeto {
@@ -366,7 +393,7 @@ section#sobre {
 }
 
 .conteudo-projeto h1 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
 }
 
 .conteudo-botoes {
@@ -405,6 +432,10 @@ section#sobre {
 
     .conteudo-botoes {
         margin-top: 0.5rem;
+    }
+
+    .projeto aside img {
+        border-radius: 13px 13px 0 0;
     }
 
 }
