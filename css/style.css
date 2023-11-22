@@ -26,6 +26,8 @@ body {
     background-color: #1A1F2D;
     color: #EDE7E3;
     font-size: 16px;
+    touch-action: manipulation;
+    scrollbar-width: thin;
 }
 
 
@@ -43,10 +45,7 @@ body {
     background-color: #212738; 
   }
   
- 
-  body {
-    scrollbar-width: thin;
-  }
+
   
   body::-webkit-scrollbar-thumb {
     background-color: #564FCC;
