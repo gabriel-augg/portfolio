@@ -102,10 +102,12 @@ header {
     .responsive-menu ul li a {
         text-decoration: none;
         color: #EDE7E3;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: bold;
         transition: all 0.5s;
+
     }
+
 
     .responsive-menu ul li a:hover {
         color: #564FCC;
@@ -125,6 +127,7 @@ section#home {
     height: 100vh;
     padding: 0 5%;
 }
+
 
 .texto-imagem {
     width: 100%;
@@ -149,7 +152,7 @@ section#home {
 .texto h1{
     font-weight: bold;
     color: #564FCC;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .texto {
@@ -161,7 +164,7 @@ section#home {
     font-weight: bold;
     padding: 8px 20px;
     border: 1px solid #564FCC;
-    color: white;
+    color: #EDE7E3;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s;
@@ -184,26 +187,45 @@ section#home {
     transition: all 0.3s;
 }
 
+@media screen and (max-width: 1000px) {
+    .texto-imagem aside {
+        display: none;
+    }
+
+    .texto-imagem {
+        justify-content: flex-start;
+    }
+
+    .texto h1{
+        font-size: 2rem;
+    }
+
+    .texto h2 {
+        font-size: 1.4rem;
+    }
+
+    .texto h3 {
+        font-size: 1.2rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     section#home {
         height: 80vh;
         justify-content: flex-start;
     }
-    
-    .texto-imagem {
-        justify-content: flex-end;
-    }
+
 
     .texto-imagem aside, .conteudo-home #social {
         display: none;
     }
 
     .texto h1{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .texto h2 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .texto h3 {
@@ -216,11 +238,11 @@ section#home {
 
 section#sobre {
     background-color: #212738;
-    padding: 0 5%;
 }
 
+
 .titulo {
-    font-size: 0.8rem;
+    font-size: 1rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -237,13 +259,6 @@ section#sobre {
     margin: 0 auto;
 }
 
-section#sobre .texto-imagem article {
-    background-color: red;
-}
-
-section#sobre .texto-imagem aside {
-    background-color: blue;
-}
 
 .imagem-texto {
     display: flex;
@@ -260,6 +275,10 @@ section#sobre .texto-imagem aside {
 
 .imagem-texto article p {
     margin-bottom: 50px;
+}
+
+#tecnologias-ferramentas {
+    padding: 0 0.9rem;
 }
 
 #tecnologias-ferramentas ul {
@@ -317,6 +336,7 @@ section#sobre .texto-imagem aside {
 
 .projeto aside {
     width: 70%;
+
 }
 
 .projeto aside img {
@@ -333,6 +353,7 @@ section#sobre .texto-imagem aside {
     justify-content: center;
 }
 
+
 .conteudo-projeto {
     width: 90%;
     display: flex;
@@ -341,10 +362,11 @@ section#sobre .texto-imagem aside {
     flex-direction: column;
     display: flex;
     flex-direction: column;
+    margin: 0.5rem 0 1rem 0;
 }
 
 .conteudo-projeto h1 {
-    font-size: 1.7rem;
+    font-size: 1.25rem;
 }
 
 .conteudo-botoes {
@@ -377,9 +399,14 @@ section#sobre .texto-imagem aside {
         flex-direction: column-reverse;
     }
 
-    .conteudo-projeto {
-        margin-bottom: 1rem;
+    .conteudo-projeto h1 {
+        font-size: 1.rem;
     }
+
+    .conteudo-botoes {
+        margin-top: 0.5rem;
+    }
+
 }
 
 /* /////////////////// CONTATO /////////////////// */
