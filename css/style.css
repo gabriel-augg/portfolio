@@ -123,7 +123,7 @@ header {
     #logo img {
         width: 120px;
     }
-    .menu-icon, .responsive-menu {
+    .menu-icon {
         display: flex;
     }
 
