@@ -115,6 +115,11 @@ header {
 
 @media screen and (max-width: 768px) {
 
+    header {
+        transition-duration: 2s;
+        transition-timing-function: ease;
+    }
+
     #logo img {
         width: 120px;
     }
@@ -131,6 +136,7 @@ header {
         background: transparent;
         border: none;
     }
+
 
     .responsive-menu ul {
         display: flex;
@@ -179,6 +185,7 @@ header {
     .aparecer {
         display: flex;
     }
+
 }
 
 
