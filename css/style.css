@@ -101,7 +101,6 @@ header {
 }
 
 #navbar ul li a:hover {
-    text-decoration: none;
     transition: all 0.8s;
     color: #564FCC;
 }
