@@ -6,7 +6,7 @@ import Title from './Title';
 
 const About = () => {
     return (
-        <section className="min-h-screen bg-secondary-light p-16 text-light">
+        <section id='about' className="min-h-screen bg-secondary-light p-16 text-light">
             <Title title="Sobre mim" />
             <div className="flex sm:flex-col lg:flex-row items-center lg:gap-0 sm:gap-10 justify-center mt-20">
                 <aside className='flex-1 flex justify-center items-center'>
