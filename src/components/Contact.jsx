@@ -10,7 +10,7 @@ const Contact = () => {
     <section id="contact" className="bg-secondary-light p-16 text-light">
         <Title title="Contato" />
 
-        <div className="flex items-center justify-evenly mt-20 lg:flex-row sm:flex-col lg:gap-0 sm:gap-16">
+        <div className="flex items-center justify-evenly mt-20 flex-col lg:flex-row sm:flex-col lg:gap-0 gap-16">
 
             <MediaLink to="mailto:gabrielaugustopsantos@gmail.com">
                 <MdEmail size={25} />

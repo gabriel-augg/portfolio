@@ -16,7 +16,7 @@ import Title from "./Title";
 
 const Technologies = () => {
     return (
-        <div className="p-16">
+        <div className="py-16">
             <div>
                 <Title title='Tecnologias' />
                 <div className='flex justify-center flex-wrap mt-16 gap-5'>

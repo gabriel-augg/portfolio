@@ -7,16 +7,16 @@ const Header = () => {
         <Logo />
         <ul className="flex items-center gap-5 text-light-light font-bold">
             <li>
-                <a href="#home">Home</a>
+                <a href="#home" className="hover:text-primary">Home</a>
             </li>
             <li>
-                <a href="#about">Sobre</a>
+                <a href="#about" className="hover:text-primary">Sobre</a>
             </li>
             <li>
-                <a href="#projects">Projetos</a>
+                <a href="#projects" className="hover:text-primary">Projetos</a>
             </li>
             <li>
-                <a href="#contact">Contato</a>
+                <a href="#contact" className="hover:text-primary">Contato</a>
             </li>
         </ul>
       </nav>
