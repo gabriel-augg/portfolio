@@ -1,5 +1,5 @@
 import illustration from '../assets/illustration.svg';
-import Tecnologies from './Tecnologies';
+import Tecnnologies from './Technologies';
 import Title from './Title';
 
 
@@ -18,7 +18,7 @@ const About = () => {
                     <p className='mt-6 text-xl'>Gosto de elaborar projetos onde sinto que estou contribuindo com algo maior.</p>
                 </article>
             </div>
-            <Tecnologies />
+            <Tecnnologies />
         </section>
     );
 }
