@@ -2,7 +2,7 @@ import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <header className="fixed w-full bg-secondary-dark top-0">
+    <header className="fixed w-full bg-secondary-dark top-0 z-10">
       <nav className="flex justify-center lg:justify-between p-4 px-12">
         <Logo />
         <ul className="lg:flex hidden items-center gap-5 text-light-light font-bold">
