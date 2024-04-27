@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const Projects = () => {
   return (
-    <section className="min-h-screen bg-secondary-dark p-16 text-light">
+    <section id="projects" className="min-h-screen bg-secondary-dark p-16 text-light">
         <Title title="Projetos" />
         <div className="lg:p-16 sm:p-5 mt-10 grid sm:grid-cols-1 lg:grid-cols-2 gap-10">
             {projects.map((project) => {
