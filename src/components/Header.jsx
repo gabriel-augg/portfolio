@@ -3,9 +3,9 @@ import Logo from "./Logo";
 const Header = () => {
   return (
     <header className="fixed w-full bg-secondary-dark top-0">
-      <nav className="flex justify-between p-4 px-12">
+      <nav className="flex justify-center lg:justify-between p-4 px-12">
         <Logo />
-        <ul className="flex items-center gap-5 text-light-light font-bold">
+        <ul className="lg:flex hidden items-center gap-5 text-light-light font-bold">
             <li>
                 <a href="#home" className="hover:text-primary">Home</a>
             </li>
