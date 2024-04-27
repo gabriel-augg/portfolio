@@ -19,42 +19,42 @@ const Technologies = () => {
         <div className="p-16">
             <div>
                 <Title title='Tecnologias' />
-                <div className='flex justify-center mt-16 gap-5'>
+                <div className='flex justify-center flex-wrap mt-16 gap-5'>
                     <Tech name='HTML'>
-                        <FaHtml5 size={50} />
+                        <FaHtml5 size={40} />
                     </Tech>
                     <Tech name='CSS'>
-                        <FaCss3Alt size={50} />
+                        <FaCss3Alt size={40} />
                     </Tech>
                     <Tech name='JavaScript'>
-                        <RiJavascriptFill size={50} />
+                        <RiJavascriptFill size={40} />
                     </Tech>
                     <Tech name="TypeScript">
-                        <BiLogoTypescript size={50} />
+                        <BiLogoTypescript size={40} />
                     </Tech>
                     <Tech name='React'>
-                        <FaReact size={50} />
+                        <FaReact size={40} />
                     </Tech>
                     <Tech name='Tailwind'>
-                        <SiTailwindcss size={50} />
+                        <SiTailwindcss size={40} />
                     </Tech>
                     <Tech name='Styled Components'>
-                        <SiStyledcomponents size={50} />
+                        <SiStyledcomponents size={40} />
                     </Tech>
                     <Tech name='Sass'>
-                        <FaSass size={50} />
+                        <FaSass size={40} />
                     </Tech>
                     <Tech name='Jest'>
-                        <SiJest size={50} />
+                        <SiJest size={40} />
                     </Tech>
                     <Tech name='MongoDB'>
-                        <SiMongodb size={50} />
+                        <SiMongodb size={40} />
                     </Tech>
                     <Tech name='MySQL'>
-                        <GrMysql size={50} />
+                        <GrMysql size={40} />
                     </Tech>
                     <Tech name='Docker'>
-                        <FaDocker size={50} />
+                        <FaDocker size={40} />
                     </Tech>
                 </div>
             </div>

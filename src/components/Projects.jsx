@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="min-h-screen bg-secondary-dark p-16 text-light">
         <Title title="Projetos" />
-        <div className="p-16 mt-10 grid grid-cols-2 gap-10">
+        <div className="lg:p-16 sm:p-5 mt-10 grid sm:grid-cols-1 lg:grid-cols-2 gap-10">
             {projects.map((project) => {
                 return (
                     <Proj 
