@@ -1,8 +1,21 @@
-# React + Vite
+# <img src="./public/icon.svg" width="30px"> Portifólio
+Esta aplicaçaõ é um portifólio pessoal desenvolvido com o objetivo de mostrar um pouco de quem eu sou, minhas habilidades técnicas e projetos projetados e desenvolvidos por mim.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para acessar o meu portifólio, clique [aqui](https://gabrielsantos.live).
 
-Currently, two official plugins are available:
+## 🎨 Layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="./public/screen.gif">
+
+## ⚙️ Descrição do projeto
+
+A aplicação possui 5 seções no total, sendo elas: Home, About, Technologies e Contact.
+
+A tecnologia escolhida para a aplicação foi o React, possibilitando a componentização e o facilitamento do desenvolvimento do projeto.
+
+## 💻 Tecnologias
+
+- JavaScript
+- React
+- TailwindCSS
+- Typeit
