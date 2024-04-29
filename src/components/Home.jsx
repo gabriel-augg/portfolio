@@ -16,7 +16,7 @@ const Home = () => {
 
 
     return (
-        <section id="home" className="flex items-center h-screen bg-secondary-dark text-white px-7 lg:px:16 py-16">
+        <section id="home" className="flex items-center h-screen text-white px-7 lg:px-20 py-16">
             <div>
                 <h1 id="role" className="text-4xl lg:text-5xl font-bold text-primary-dark"></h1>
                 <p className=" text-xl lg:text-2xl my-6 ">Aqui você vai ver um pouquinho de quem eu sou e alguns dos meus projetos.</p>

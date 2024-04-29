@@ -48,3 +48,7 @@ body::-ms-scrollbar-thumb {
 body::-ms-scrollbar-track {
     background-color: #212738;
 }
+
+body {
+    background-color: #1a1f2d
+}
