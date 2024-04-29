@@ -18,4 +18,4 @@ A tecnologia escolhida para a aplicação foi o React, possibilitando a componen
 - JavaScript
 - React
 - TailwindCSS
-- Typeit
+- Typeitjs
