@@ -12,5 +12,12 @@ export default [
         label: "API",
         stacks: ["Node.js", "Express", "MySQL", "JWT", "Bcrypt", "MVC"],
         link: "https://github.com/gabriel-augg/wonder-api"
+    },
+    {
+        title: "Portifólio",
+        description: "Portifólio desenvolvido com o propósito de mostrar quem sou eu, tecnologias, projetos pessoais e contato.",
+        label: "Front",
+        stacks: ["React.js", "TailwindCSS", "Typeit"],
+        link: "https://github.com/gabriel-augg/portfolio"
     }
 ]
