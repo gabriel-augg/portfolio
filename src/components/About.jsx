@@ -14,8 +14,8 @@ const About = () => {
                 </aside>
                 <article className='flex-1 lg:text-start text-center'>
                     <h1 className='text-2xl text-primary-dark font-bold'>Quem sou eu?</h1>
-                    <p className='mt-6 text-xl'>Me chamo Gabriel, tenho 19 anos, sou apaixonado por tecnologia e empreendedorismo desde meu ensino médio.</p>
-                    <p className='mt-6 text-xl'>Gosto de elaborar projetos onde sinto que estou contribuindo com algo maior.</p>
+                    <p className='mt-6 text-xl'>Me chamo Gabriel, tenho 19 anos, sou natural de Aracaju - SE e sou apaixonado por tecnologia desde o final do meu ensino médio. Desde então, venho estudando todos os dias programação, melhorando minhas habilidades para se tornar um profissional melhor no que eu mais amo.</p>
+                    <p className='mt-6 text-xl'>Gosto de desafios, resolver problemas e participar de projetos onde sinto que estou contribuindo com algo maior.</p>
                 </article>
             </div>
             <Tecnnologies />
