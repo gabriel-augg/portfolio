@@ -28,6 +28,20 @@ export default [
         link: "https://github.com/gabriel-augg/minhas-notas-api"
     },
     {
+        title: "Photo",
+        description: "MPhoto é uma rede social de fotos, com abordagem semelhante ao Vsco, seu objetivo é ser uma plataforma para publicar imagens e guarda-las com segurança.",
+        label: "Client",
+        stacks: ["TypeScript", "React", "Redux", "Axios", "Mui", "Mui Icons", "Firebase"],
+        link: "https://github.com/gabriel-augg/photo"
+    },
+    {
+        title: "Photo API RESTful",
+        description: "API desenvolvida seguindo os padrões REST com o intuito de ser integrada ao projeto Photo.",
+        label: "Server",
+        stacks: ["TypeScript","Node.js", "Express", "MongoDB", "Mongoose","JWT", "Bcrypt", "MVC", "Jest", "Supertest", "Mongo-memory-server","Cooke-parser"],
+        link: "https://github.com/gabriel-augg/photo-api"
+    },
+    {
         title: "Portifólio",
         description: "Portifólio desenvolvido com o propósito de mostrar quem sou eu, tecnologias, projetos pessoais e contato.",
         label: "Client",
